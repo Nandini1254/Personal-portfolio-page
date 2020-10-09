@@ -1,26 +1,95 @@
-<html>
-	<head>
-<title>For registering for an event</title>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+   
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css2?family=Commissioner&display=swap" rel="stylesheet">
+    <title>For registering for an event</title>
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+    }
+    body{
+        background-color:cornsilk;
+        font-weight: 16px;
+    }
+    .btn{
+        padding: 2px;
+        font-size: medium;
+        text-align: center;
+        size: 2%;
+        margin: 5px;
+    }
+    .form{
+        background-color: darkgray;
+        margin:20px 500px;
+        padding:5px;
+        font-size: medium;
+        font-family: 'Commissioner', sans-serif;
+    }
+    .form-control{
+        padding:0px;
+        size:2px;
+        margin:1px;
+    }
+    .fieldset{
+        border-style: solid ;
+        border-width: 2px;
+        border-color:silver;
+        border-radius: 2px;
+        padding:2px;
+    }
+    .radio-css{
+        margin-right: 180px;
+    }
+    .form-check{
+        position:relative;
+        display:inline-block;
+        float: right;
+        margin:5px;
+    }
+</style>
 </head>
-<body bg="yellow"></body>
-<form name="event registration" action="thanks.html">
+<body>
+    <div class="form">
+<form class="form-group" name="event registration" action="thanks.html">
 Applicant's Name:
-<input type="text" name="fname" id="fname" size=30 maxlength=30 required><br>
+<input type="text" class="form-control" name="fname" id="fname" size=30 maxlength=30 required>
 Roll no:
-<input type="text" Roll no="rollno" placeholder="roll" size=10 maxlength=30><br>
+<input type="text"  class="form-control" Roll no="rollno" placeholder="roll" size=10 maxlength=30>
 Branch:
-<input type="text" branch="branch" placeholder="branch" size=20 maxlength=30>
-<br>
+<input type="text"  class="form-control" branch="branch" placeholder="branch" size=20 maxlength=30>
 email id:
-<input type="email" email id="email" placeholder="email" size=20 maxlength=30 required> 
+<input type="email" class="form-control" email id="email" placeholder="email" size=20 maxlength=30 required> 
+Password:<input type="Password" class="form-control" name="Password" required min="5">
+Birthday:<input type="date"  class="form-control" name="DOB"><br>
+Gender:  
+<div class="radio-css">
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+    <label class="form-check-label" for="gridRadios1">
+     Female
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+    <label class="form-check-label" for="gridRadios2">
+      Male
+    </label>
+  </div>
+</div>
+</br>
+</br>
+<div class="fieldset">
+Rock in kiit 
 <br>
-Password:<input type="Password" name="Password" required min="5"><br>
-Birthday:<input type="date" name="DOB"><br>
-Gender<br>
-<input type="radio" name="gender" id="male"value="male">Male<br>
-<input type="radio" name="gender" id="female"value="female">Female<br>
-<fieldset>
-<legend align="top">Rock in kiit </legend>
 <input type="checkbox" name="hacking" id="hacking" value="yes">
 Hacking
 <br>
@@ -29,8 +98,8 @@ programing
 <br>
 <input type="checkbox" name="pulling the bar" id="pulling the bar" value="yes">
 Pushing the block
-</fieldset>
-
+</div>
+</br>
 Choose your year in college:
 <br>
 <select>
@@ -42,6 +111,12 @@ Choose your year in college:
 </select>
 <br>
 <br>
-<input type="Submit" name="submit" id="submit">
-<input type="reset" name="reset">
+<button type="button" class="btn btn-success">Submit</button>
+<button type="button" class="btn btn-secondary">reset</button>
+</form>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
 </html>
