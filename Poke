@@ -1,14 +1,61 @@
-https://m.facebook.com/story.php?story_fbid=113698853826761&id=100055599416747&refid=7&ref=wizard&_ft_=qid.6878880792977441885%3Amf_story_key.-2583212998623436387%3Atop_level_post_id.113698853826761%3Acontent_owner_id_new.100055599416747%3Asrc.22%3Astory_location.112%3Astory_attachment_style.share%3Aview_time.1601613055%3Afilter.h_chr&__tn__=-R
-<!DOCTYPEhtml><html>
+<html>
 <head>
-<title>Microsoft form</title></head>
-<body><h1>FREEE GET ANY GAME SKINS </h1>
-<form>Name:<input type="text"autocomplete><br><br>
-E-mail:<input type="email"name="email"><br><br>
-<input placeholder="password"><br><br>
-Date of birth:<input type="date""month""year"><br><br>
-Phone number:<input type="tel"name="phone"required><br><br>
-Add address:<input type="text"autocomplete><br><br>
-<img src ="/img dog.png"><br><br>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<title>Microsoft form</title>
+<style>
+    *{
+        font-family: 'Roboto', sans-serif;  
+    }
+    body{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQJy0-OHwMX_sku9V8gvG2JnyNZiZt37xtFcA&usqp=CAU") ;
+         background-repeat: no-repeat;
+         background-size: cover;
+         color:white;
+    }
+    .main{
+       
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        width:50%;
+        color:white;
+    }
+    .textbox{
+      border-bottom: 2px solid gray;
+      overflow: hidden;
+      color:white;
+    }
+    h1{
+        margin:10px;
+    }
+    .textbox input,textarea{
+        border:none;
+        outline:none;
+        background: none;
+        float:right;
+        width:80%;
+        color:white;
+    }
+    button{
+        background-color: gray;
+        padding:5px;
+        margin:5px;
+        font-size: 20px;
+        border:none;
+        border-radius: 4px;
+        width:20%;
+        color:white;
+    }
+</style>
 
-<button>submit</button></form></body></body></html>
+<form class="main">
+    <body><center><h1>FREEE GET ANY GAME SKINS </h1></center>
+    <div class="textbox">Name:          <input type="text"autocomplete placeholder="enter the name"><br><br></div>
+    <div class="textbox">E-mail:        <input type="email"name="email" placeholder="enter the email"><br><br></div>
+    <div class="textbox">Password:      <input placeholder="enter the password"><br><br></div>
+    <div class="textbox">Date of birth: <input type="date" placeholder="bithdaydate"><br><br></div>
+    <div class="textbox">Phone number:  <input type="tel"name="phone" placeholder="phoneno" required><br><br></div>
+    <div class="textbox">Add address:   <textarea type="text" rows="5" autocomplete></textarea><br><br></div>  
+<center><button>submit</button></center></form>
+ </body></html>
